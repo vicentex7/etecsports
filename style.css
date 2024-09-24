@@ -1,0 +1,158 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+</style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    gap: 8vh;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    gap: 2vh;
+}
+
+#menunavegacao {
+    display: flex;
+    flex-direction: row;
+}
+
+#navegacao {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    padding: 1vh;
+}
+
+#navegacao:hover {
+    color: green;
+    transition: 0.5s;
+border-radius: 1px top;
+    border-radius: 10vh;
+}
+
+#icon{
+    font-size: 30px;
+}
+
+
+#icon1{
+    font-size: 30px;
+}
+
+#icon2{
+    font-size: 30px;
+}
+
+#icon:hover{
+   transform: rotate(-10deg);
+}
+
+#menucontato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    padding: 1vh;
+}
+
+#contato {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    gap: 1vh;
+}
+
+main {
+display: flex;
+flex-direction: row;
+}
+.grupocards {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+gap: 20px;
+margin-top: 40px;
+padding: 20px 20px 20px 20px;
+
+}
+.card img{
+    height: 200px;
+    width: 100%;
+}
+#card-info {
+    text-align: center;
+    margin-top: 50px;
+}
+#card-button button {
+width: 150px;
+height: 40px;
+border-radius: 4px;
+
+}
+#card-buton:hover{
+    background-color: aquamarine;
+    color: brown;
+}
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 15vh;
+}
+
+#desenvolvedor {
+    margin-left: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+#redessociais {
+    margin-right: 15px;
+    display: flex;
+    border-right: 205px;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 40px;
+   
+    color: aqua;
+}
